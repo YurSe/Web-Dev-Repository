@@ -1,0 +1,122 @@
+#menu {
+        padding: 0;
+        margin: 0;
+        font-family:  Verdana;
+      }
+#menu li {
+	list-style: none;
+        float: left;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+        text-align: center;
+        background:  lightblue	;
+        position: relative;
+        padding-top: 14px;
+        }
+#menu li ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 64px;
+        }
+#menu li ul li {
+        float: none;
+        height: 50px;
+        margin: 0;
+        width: 200px;
+        text-align: center;
+        background: lightblue;
+        }
+#menu li a {
+        display: block;
+        width: 200px;
+        height: 50px;
+        color:    light;
+        text-decoration: none;
+        }
+
+#menu li:hover ul {
+        display: block;
+        }
+#menu li:hover {
+        background: lightgray;
+        }
+#menu li ul li ul {
+	left:200px;
+	top: 0;
+	}
+#menu li ul li ul li {
+	display: none;
+	}
+#menu li ul li:hover ul li {
+	display: block;
+	}
+
+
+                      .left {
+                              float:left; /* Выравнивание по левому краю */
+                              margin: 12px 12px 12px 0; /* Отступы вокруг картинки */
+                      }
+.right  {
+        float: right; /* Выравнивание по правому краю  */
+        margin: 12px 0 12px 12px; /* Отступы вокруг картинки */
+}
+body {
+        background: url(Images/Glass.jpg);
+        color: aliceblue;
+}
+
+p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 90%;
+}
+
+P:first-letter {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 200%;
+        color: #120b5a;
+}
+
+.block1 {
+        bottom: 30px;
+        left: 30px;
+}
+
+.block2 {
+        bottom: 60px;
+        left: 30px;
+}
+
+.block3 {
+        bottom: 90px;
+        left: 30px;
+}
+.blockH1 {
+        bottom: 15px;
+        left: 105px;
+
+}
+.blockH2 {
+        bottom: 45px;
+        left: 105px;
+
+}
+.blockH3 {
+        bottom: 75px;
+        left: 105px;
+
+}
+.testblock {
+        bottom: 105px;
+        left: 40px;
+}
+div {
+        padding: 30px;
+
+}

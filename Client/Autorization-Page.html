@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <script>
+        function MainClick() {
+            var username = document.getElementById('Username').value;
+            localStorage.setItem('Sending', username);
+            var key = 'username_example';
+            //localStorage.setItem('Transfer', 'Our test transfer value');
+        //var transfer_key = 'value_example';
+        //localStorage.clear();
+                             }
+    </script>
+</head>
+<body>
+        <form id="form1" name="SendingForm" action="UserPage.html" method="POST" >
+                <FIELDSET>
+                        User Login    <input type="text"  id="Username" /> <br>
+                        User Password <input type="password" name="Password"/> <br>
+               </FIELDSET>
+               <input type="submit" id="Login" name="sending" onClick="MainClick()"/>
+               <input type="reset" vaule="RESET"/> <br>               
+    </form>
+</body>
+</html>
