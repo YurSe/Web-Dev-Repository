@@ -1,22 +1,17 @@
 {
-  "name": "node-project-site",
+  "name": "node-test-project",
   "version": "1.0.0",
-  "description": "Web-Dev-Node.js-Site",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YurSe/Web-Dev-Repository.git"
-  },
-  "author": "YurSe",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YurSe/Web-Dev-Repository/issues"
-  },
-  "homepage": "https://github.com/YurSe/Web-Dev-Repository#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
   }
 }
